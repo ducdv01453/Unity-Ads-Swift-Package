@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "UnityAds", targets: ["UASPM"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ducdv01453/Unity-Ad-Quality-Swift-Package", branch: "master"),
+    .package(url: "https://github.com/ducdv01453/Unity-Ad-Quality-Swift-Package", branch: "main"),
   ],
   targets: [
     .target(
