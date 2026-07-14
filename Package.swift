@@ -16,7 +16,7 @@ let package = Package(
     .target(
       name: "UASPM",
       dependencies: [
-        .target(name: "UnityAdsSDK"),
+        .target(name: "UnityAds"),
         .product(name: "AdQuality", package: "Unity-Ad-Quality-Swift-Package"),
       ],
       linkerSettings: [
@@ -36,7 +36,7 @@ let package = Package(
         .linkedFramework("Network"),
       ]),
     .binaryTarget(
-      name: "UnityAdsSDK",
+      name: "UnityAds",
       url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.19.0/UnityAds.zip",
       checksum: "526c3a285dfa3216d5a065d99533cfa67cd2b8a872b230811a8907c9e5ebec4a"
     ),
